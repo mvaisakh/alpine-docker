@@ -2,6 +2,6 @@
 
 # Setup for Kernel Building
 apk update
-apk add alpine-sdk sudo shadow bash
+apk add sudo shadow bash git bc make
 chsh -s bash
 exec /bin/bash
